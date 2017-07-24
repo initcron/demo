@@ -1,5 +1,5 @@
 app:
-  image: initcron/demo:staging
+  image: sagarinitcron/demo2:staging
   links: 
     - db:db
   ports:
