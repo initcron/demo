@@ -1,14 +1,4 @@
 app:
-  image: sagarinitcron/demo2:staging
-  links: 
-    - db:db
+  image: initcron/demo:staging
   ports:
     - 9999:8080 
-
-db:
-  image: mysql:latest
-  environment:
-    - MYSQL_ROOT_PASSWORD=password
-  volumes: 
-    - /var/lib/mysql
-
